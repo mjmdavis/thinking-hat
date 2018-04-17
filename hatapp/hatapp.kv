@@ -1,0 +1,37 @@
+#:kivy 1.0
+
+MyScreenManager:
+	MenuScreen:
+	ShowcaseScreen:
+
+<MenuScreen>:
+	name: 'menu'
+	GridLayout:
+		width: 800
+		height: 480
+		rows: 2
+		cols: 3
+		padding: 10
+		spacing: 10
+		Button:
+			text: "Public Enemy"
+			on_release: app.run_subprocess(app.wintergartan)
+		Button:
+			text: "Public Service"
+			on_release: app.run_subprocess(app.candyman)
+		Button:
+			text: "Happy"
+			on_release: app.run_subprocess(app.oldies_but_happies)
+		Button:
+			text: "Stop"
+			on_release: app.sp.kill()
+		Button:
+			text: "Memories"
+			on_release: app.run_subprocess(app.image_slideshow)
+		Button:
+			text: "Think"
+			on_release: app.root.current = 'seesay'
+
+<ShowcaseScreen>:
+	name: 'seesay'
+	

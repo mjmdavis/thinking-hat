@@ -40,7 +40,7 @@ gnureadline==6.3.8
 google-api-python-client==1.6.5
 greenlet==0.4.13
 grip==4.4.0
-httplib2==0.10.3
+httplib2==0.18.0
 hyperlink==18.0.0
 icalendar==4.0.1
 idna==2.6

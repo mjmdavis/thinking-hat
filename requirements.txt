@@ -20,7 +20,7 @@ click==6.7
 clint==0.5.1
 constantly==15.1.0
 crumpets==2.0.0.dev0
-cryptography==2.1.4
+cryptography==3.2
 cssselect==1.0.3
 cycler==0.10.0
 datadings==2.0.0.dev0
